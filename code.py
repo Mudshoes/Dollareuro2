@@ -7,6 +7,7 @@ print("Warning: Only the US dollar or currencies of equal value will have accura
 
 ## When answer = no or 0, the while loop stops
 answer = 'yes'
+## This repeats the indented code until stopped.
 while True:
     ## Gets the dollar amount from the user
     dollar = float(input("Enter dollar amount to be converted: "))
@@ -28,3 +29,4 @@ while True:
         ## breaks the loop
         break
 
+## This is a comment
