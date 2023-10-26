@@ -1,6 +1,8 @@
 ## No takey my code. is mine
 print("US dollar to Euro converter")
 print("Made by Mudshoes. All rights reserved. 2023")
+print("Prints amount in euros when given a US dollar amount")
+print("Warning: Only the US dollar or currencies of equal value will have accurate conversions!")
 
 ## When answer = no or 0, the while loop stops
 answer = 'yes'
