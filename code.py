@@ -8,7 +8,7 @@ print("Warning: Only the US dollar or currencies of equal value will have accura
 answer = 'yes'
 while True:
     ## Gets the dollar amount from the user
-    dollar = float(input("How many dollars are there?"))
+    dollar = float(input("Enter dollar amount to be converted: "))
 
     ##converts dollars to euros
     euro = dollar * 0.94540
@@ -16,6 +16,6 @@ while True:
     ## Prints the amount of euros
     print("Euros: " + str(euro))
 
-    answer = input("Continue conversions?")
+    answer = input("Would you like to convert dollars to euros? ")
     if answer == 'no' or '0' or 'n':
         break
