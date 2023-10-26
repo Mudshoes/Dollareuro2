@@ -1,4 +1,5 @@
 ## No takey my code. is mine
+## prints name, credits, instuctions, and warnings.
 print("US dollar to Euro converter")
 print("Made by Mudshoes. All rights reserved. 2023")
 print("Prints amount in euros when given a US dollar amount")
