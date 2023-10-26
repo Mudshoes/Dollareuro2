@@ -23,5 +23,8 @@ while True:
     Otherwise the loop continues.
     '''
     answer = input("Would you like to convert dollars to euros? ")
+    ## Checks the answer of the prev input
     if answer == 'no' or '0' or 'n':
+        ## breaks the loop
         break
+
